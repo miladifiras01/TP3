@@ -24,7 +24,7 @@ namespace TP3.Controllers
         public IActionResult Privacy()
         {
             Debug.WriteLine("Hello World !!! .... ");
-            SQLiteConnection dbCon = new SQLiteConnection("Data Source=C:\\Users\\Louay\\Desktop\\2022 GL3 .NET Framework TP3 - SQLite database.db;");
+            SQLiteConnection dbCon = new SQLiteConnection("Data Source=C:\\Users\\Firas\\Desktop\\2022 GL3 .NET Framework TP3 - SQLite database.db;");
             dbCon.Open();
 
             using (dbCon)

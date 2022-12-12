@@ -7,7 +7,7 @@ namespace TP3.Models
         public List<Person> GetAllPerson()
         {
             List<Person> list = new List<Person>();
-            SQLiteConnection dbCon = new SQLiteConnection("Data Source=C:\\Users\\Louay\\Desktop\\2022 GL3 .NET Framework TP3 - SQLite database.db;");
+            SQLiteConnection dbCon = new SQLiteConnection("Data Source=C:\\Users\\Firas\\Desktop\\2022 GL3 .NET Framework TP3 - SQLite database.db;");
             dbCon.Open();
 
             using (dbCon)
